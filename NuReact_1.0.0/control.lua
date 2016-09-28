@@ -1,4 +1,4 @@
-MOD_NAME = "Reactors"
+MOD_NAME = "NuReact"
 
 REACTOR_ENTITY_NAME = "nuclear-reactor"
 INTERFACE_ENTITY_NAME = "reactor-interface"

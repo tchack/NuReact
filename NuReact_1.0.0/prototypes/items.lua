@@ -3,7 +3,7 @@ data:extend({
     type = "item-group",
     name = "reactions",
     order = "g",
-    icon = "__Reactors__/graphics/item-group/reactions.png"
+    icon = "__NuReact__/graphics/item-group/reactions.png"
   },
   {
     type = "item-subgroup",
@@ -20,7 +20,7 @@ data:extend({
   {
     type = "item",
     name = "nuclear-reactor",
-    icon = "__Reactors__/graphics/icons/nuclear-reactor.png",
+    icon = "__NuReact__/graphics/icons/nuclear-reactor.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy",
     order = "b[steam-power]-c[nuclear-reactor]",
@@ -30,7 +30,7 @@ data:extend({
   {
     type = "item",
     name = "cooling-tower",
-    icon = "__Reactors__/graphics/icons/cooling-tower.png",
+    icon = "__NuReact__/graphics/icons/cooling-tower.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy",
     order = "b[steam-power]-d[cooling-tower]",
@@ -40,7 +40,7 @@ data:extend({
   {
     type = "item",
     name = "uranium-ore",
-    icon = "__Reactors__/graphics/icons/uranium-ore.png",
+    icon = "__NuReact__/graphics/icons/uranium-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "ff[uranium-ore]",
@@ -49,7 +49,7 @@ data:extend({
   {
     type = "item",
     name = "uranium",
-    icon = "__Reactors__/graphics/icons/uranium.png",
+    icon = "__NuReact__/graphics/icons/uranium.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fission-products",
     order = "a[uranium]",
@@ -58,7 +58,7 @@ data:extend({
   {
     type = "item",
     name = "enriched-fuel",
-    icon = "__Reactors__/graphics/icons/enriched-fuel.png",
+    icon = "__NuReact__/graphics/icons/enriched-fuel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fission-products",
     order = "b[enriched-fuel]",
@@ -67,7 +67,7 @@ data:extend({
   {
     type = "item",
     name = "plutonium",
-    icon = "__Reactors__/graphics/icons/plutonium.png",
+    icon = "__NuReact__/graphics/icons/plutonium.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fission-products",
     order = "c[plutonium]",
@@ -76,7 +76,7 @@ data:extend({
   {
     type = "item",
     name = "spent-fuel",
-    icon = "__Reactors__/graphics/icons/spent-fuel.png",
+    icon = "__NuReact__/graphics/icons/spent-fuel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fission-products",
     order = "d[spent-fuel]",
@@ -85,10 +85,20 @@ data:extend({
   {
     type = "item",
     name = "depleted-uranium",
-    icon = "__Reactors__/graphics/icons/depleted-uranium.png",
+    icon = "__NuReact__/graphics/icons/depleted-uranium.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fission-products",
     order = "e[depleted-uranium]",
     stack_size = 50
-  }
+  },
+  {
+    type = "item",
+    name = "steam-turbine",
+    icon = "__NuReact__/graphics/icons/steam-turbine.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "energy",
+    place_result = "steam-turbine",
+    order = "b",
+    stack_size = 10
+  },
 })

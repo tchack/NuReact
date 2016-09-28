@@ -89,7 +89,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium",
-    icon = "__Reactors__/graphics/icons/uranium.png",
+    icon = "__NuReact__/graphics/icons/uranium.png",
     subgroup = "fission-products",
     order = "a[uranium]",
     category = "chemistry",
@@ -108,7 +108,7 @@ data:extend({
   {
     type = "recipe",
     name = "uranium-enrichment",
-    icon = "__Reactors__/graphics/icons/uranium-enrichment.png",
+    icon = "__NuReact__/graphics/icons/uranium-enrichment.png",
     subgroup = "fission-products",
     order = "b[uranium-enrichment]",
     category = "chemistry",
@@ -127,7 +127,7 @@ data:extend({
   {
     type = "recipe",
     name = "fuel-reprocessing",
-    icon = "__Reactors__/graphics/icons/fuel-reprocessing.png",
+    icon = "__NuReact__/graphics/icons/fuel-reprocessing.png",
     subgroup = "fission-products",
     order = "c[fuel-reprocessing]",
     category = "advanced-crafting",
@@ -146,7 +146,7 @@ data:extend({
   {
     type = "recipe",
     name = "mox-fuel",
-    icon = "__Reactors__/graphics/icons/mox.png",
+    icon = "__NuReact__/graphics/icons/mox.png",
     subgroup = "fission-products",
     order = "d[mox]",
     category = "advanced-crafting",
@@ -167,7 +167,7 @@ data:extend({
   {
     type = "recipe",
     name = "fission-reaction",
-    icon = "__Reactors__/graphics/icons/fission-reaction.png",
+    icon = "__NuReact__/graphics/icons/fission-reaction.png",
     order = "a",
     subgroup = "fission",
     category = "fission",
@@ -185,7 +185,7 @@ data:extend({
   {
     type = "recipe",
     name = "breeder-reaction",
-    icon = "__Reactors__/graphics/icons/breeder-reaction.png",
+    icon = "__NuReact__/graphics/icons/breeder-reaction.png",
     order = "b",
     subgroup = "fission",
     category = "fission",
@@ -202,6 +202,17 @@ data:extend({
       {"plutonium", 1}
     }
   },
+  {
+      enabled = false,
+      type = "recipe",
+      name = "steam-turbine",
+      ingredients = {
+        {"pipe", 20},
+        {"electric-engine-unit", 20},
+        {"steel-plate", 40}
+      },
+      result="steam-turbine"
+    },
   -- Ammo
   -- {
     -- type = "recipe",

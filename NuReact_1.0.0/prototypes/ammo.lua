@@ -2,7 +2,7 @@ data:extend({
   {
     type = "ammo",
     name = "du-magazine",
-    icon = "__Reactors__/graphics/icons/du-magazine.png",
+    icon = "__NuReact__/graphics/icons/du-magazine.png",
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {

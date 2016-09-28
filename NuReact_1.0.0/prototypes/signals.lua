@@ -13,7 +13,7 @@ data:extend({
     icons =
     {
       {icon = SIGNAL_BACKGROUND},
-      {icon = "__Reactors__/graphics/icons/signal/core.png"}
+      {icon = "__NuReact__/graphics/icons/signal/core.png"}
     },
     subgroup = "reactor-signals",
     order = "a-a"
@@ -24,7 +24,7 @@ data:extend({
     icons =
     {
       {icon = SIGNAL_BACKGROUND},
-      {icon = "__Reactors__/graphics/icons/signal/fluid.png"}
+      {icon = "__NuReact__/graphics/icons/signal/fluid.png"}
     },
     subgroup = "reactor-signals",
     order = "a-b"
@@ -35,7 +35,7 @@ data:extend({
     icons =
     {
       {icon = SIGNAL_BACKGROUND},
-      {icon = "__Reactors__/graphics/icons/signal/power.png"}
+      {icon = "__NuReact__/graphics/icons/signal/power.png"}
     },
     subgroup = "reactor-signals",
     order = "a-c"
@@ -46,7 +46,7 @@ data:extend({
     -- icons =
     -- {
       -- {icon = SIGNAL_BACKGROUND},
-      -- {icon = "__Reactors__/graphics/icons/signal/throttle.png"}
+      -- {icon = "__NuReact__/graphics/icons/signal/throttle.png"}
     -- },
     -- subgroup = "reactor-signals",
     -- order = "d[throttle]"
@@ -57,7 +57,7 @@ data:extend({
     -- icons =
     -- {
       -- {icon = SIGNAL_BACKGROUND},
-      -- {icon = "__Reactors__/graphics/icons/signal/halt.png"}
+      -- {icon = "__NuReact__/graphics/icons/signal/halt.png"}
     -- },
     -- subgroup = "reactor-signals",
     -- order = "e[halt]"
@@ -67,8 +67,8 @@ data:extend({
     name = "signal-reactor-scram",
     icons =
     {
-      {icon = "__Reactors__/graphics/icons/signal/red-background.png"},
-      {icon = "__Reactors__/graphics/icons/signal/halt.png"}
+      {icon = "__NuReact__/graphics/icons/signal/red-background.png"},
+      {icon = "__NuReact__/graphics/icons/signal/halt.png"}
     },
     subgroup = "reactor-signals",
     order = "a-f"

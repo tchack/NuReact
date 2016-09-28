@@ -1,6 +1,6 @@
 uranium = util.table.deepcopy(data.raw["resource"]["stone"])
 uranium.name = "uranium-ore"
-uranium.icon = "__Reactors__/graphics/icons/uranium-ore.png"
+uranium.icon = "__NuReact__/graphics/icons/uranium-ore.png"
 uranium.minable.result = "uranium-ore"
 uranium.autoplace =
 {
@@ -20,7 +20,7 @@ uranium.autoplace =
   starting_area_size = 600 * 0.015,
   starting_area_amount = 1500
 }
-uranium.stages.sheet.filename = "__Reactors__/graphics/entity/uranium-ore/uranium-ore.png"
+uranium.stages.sheet.filename = "__NuReact__/graphics/entity/uranium-ore/uranium-ore.png"
 uranium.map_color = {r=0.212, g=0.702, b=0.537}
 
 data:extend({

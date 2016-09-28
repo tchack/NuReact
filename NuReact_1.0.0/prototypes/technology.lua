@@ -2,7 +2,7 @@ data:extend({
   {
     type = "technology",
     name = "nuclear-fission",
-    icon = "__Reactors__/graphics/technology/fission-reaction.png",
+    icon = "__NuReact__/graphics/technology/fission-reaction.png",
     icon_size = 128,
     effects =
     {
@@ -25,6 +25,10 @@ data:extend({
       {
         type = "unlock-recipe",
         recipe = "fission-reaction"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "steam-turbine"
       }
     },
     prerequisites = {"advanced-electronics", "sulfur-processing"},
@@ -43,7 +47,7 @@ data:extend({
   {
     type = "technology",
     name = "nuclear-reprocessing",
-    icon = "__Reactors__/graphics/technology/reprocessing.png",
+    icon = "__NuReact__/graphics/technology/reprocessing.png",
     icon_size = 128,
     effects =
     {
@@ -69,7 +73,7 @@ data:extend({
   {
     type = "technology",
     name = "breeder-reaction",
-    icon = "__Reactors__/graphics/technology/breeder-reaction.png",
+    icon = "__NuReact__/graphics/technology/breeder-reaction.png",
     icon_size = 128,
     effects =
     {
