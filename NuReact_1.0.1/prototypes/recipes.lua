@@ -203,16 +203,28 @@ data:extend({
     }
   },
   {
-      enabled = false,
-      type = "recipe",
-      name = "steam-turbine",
-      ingredients = {
-        {"pipe", 20},
-        {"electric-engine-unit", 20},
-        {"steel-plate", 40}
-      },
-      result="steam-turbine"
+    enabled = false,
+    type = "recipe",
+    name = "steam-turbine",
+    ingredients = {
+      {"pipe", 20},
+      {"electric-engine-unit", 20},
+      {"steel-plate", 40}
     },
+    result="steam-turbine"
+  },
+  {
+	type = "recipe",
+	name = "plutonium-science-pack",
+	enabled = false,
+	energy_required = 20,
+	ingredients = {
+	  {"plutonium", 2},
+	  {"depleted-uranium", 3}
+	},
+	result = "alien-science-pack",
+	result_count = 4,
+  },
   -- Ammo
   -- {
     -- type = "recipe",

@@ -54,6 +54,10 @@ data:extend({
       {
         type = "unlock-recipe",
         recipe = "fuel-reprocessing"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "plutonium-science-pack"
       }
     },
     prerequisites = {"nuclear-fission"},
